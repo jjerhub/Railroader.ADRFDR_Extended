@@ -1,0 +1,39 @@
+{
+  "tracks": {
+	"nodes": {
+		"N2xb": {
+			"position": { "x": 1120, "y": 600, "z": 1760 },
+			"rotation": { "x": 358.281647, "y": 200, "z": 0.480053872 },
+			"flipSwitchStand": false
+		},
+	},
+    "spans": {
+      "PRmKdC": {
+        "upper": {
+          "segmentId": "Svhx",
+          "distance": 97,
+          "End": "Start"
+        },
+        "lower": {
+          "segmentId": "Svhx",
+          "distance": 13.68,
+          "End": "Start"
+        },
+        "normalize": true
+      }
+    }
+  },
+  "areas": {
+    "alarka-jct": {
+      "industries": {
+        "robinson-mine": {
+          "components": {
+            "coal-by-kevin": {
+              "costPerUnit": 0.0015
+            }
+          }
+        }
+      }
+    }
+  }
+}
