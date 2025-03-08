@@ -12,3 +12,4 @@ jobs:
         with:
           name: 'ADRFDR_Extended'
           token: ${{ secrets.GITHUB_TOKEN }}
+          fileList: . -x '*.git*' 'gitignore.txt'
