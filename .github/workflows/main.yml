@@ -1,3 +1,4 @@
+name: Do zip on release
 on:
   release:
     types:
