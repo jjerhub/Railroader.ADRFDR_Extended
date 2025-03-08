@@ -8,6 +8,6 @@ env:
           
 jobs:
   action:
-        uses: jjerhub/Utilities.GithubActions/ZipContents
+        uses: jjerhub/Utilities.GithubActions/ZipContents.yml@master
         with:
           name: 'ADRFDR_Extended'
