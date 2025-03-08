@@ -1,0 +1,12 @@
+on:
+  release:
+    types:
+      - created
+
+      
+jobs:
+  action:
+        uses: jjerhub/Utilities.GithubActions/.github/workflows/ZipContents.yml@master
+        secrets: inherit
+        with:
+          name: 'ADRFDR_Extended'
