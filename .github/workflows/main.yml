@@ -3,11 +3,10 @@ on:
     types:
       - created
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+      
 jobs:
   action:
-        uses: jjerhub/Utilities.GithubActions/ZipContents.yml@master
+        uses: .github/workflows/jjerhub/Utilities.GithubActions/ZipContents.yml@master
+        secrets: inherit
         with:
           name: 'ADRFDR_Extended'
