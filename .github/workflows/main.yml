@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
       
 jobs:
-  action:
+  do_zip:
     runs-on: ubuntu-latest
     steps:
       - uses: jjerhub/Utilities.GithubActions-ZipAndRelease@v1.0.2
