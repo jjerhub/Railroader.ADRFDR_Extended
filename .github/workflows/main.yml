@@ -9,7 +9,7 @@ jobs:
   do_zip:
     runs-on: ubuntu-latest
     steps:
-      - uses: jjerhub/Utilities.GithubActions-ZipAndRelease@v1.0.3
+      - uses: jjerhub/Utilities.GithubActions-ZipAndRelease@v1.0.4
         with:
           name: 'ADRFDR_Extended'
           token: ${{ secrets.GITHUB_TOKEN }}
