@@ -8,6 +8,6 @@ on:
 jobs:
   do_zip:
     secrets: inherit
-    uses: jjerhub/Utilities.GithubActions/.github/workflows/ZipContents.yml@master
+    uses: jjerhub/Utilities.GithubWorkflows/.github/workflows/ZipContents.yml@master
     with:
       zip-file-name: 'ADRFDR_Extended'
