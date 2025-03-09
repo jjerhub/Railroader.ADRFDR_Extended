@@ -8,6 +8,6 @@ on:
 jobs:
   do_zip:
     secrets: inherit
-    uses: jjerhub/Utilities.GithubWorkflows/.github/workflows/MakeRailloaderModZip.yml@v1.0.0
+    uses: jjerhub/Utilities.GithubWorkflows/.github/workflows/MakeRailloaderModZip.yml@master
     with:
       mod-name: 'ADRFDR_Extended'
