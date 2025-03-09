@@ -7,10 +7,7 @@ on:
       
 jobs:
   do_zip:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: jjerhub/Utilities.GithubActions-ZipAndRelease@v1.0.4
-        with:
-          name: 'ADRFDR_Extended'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fileList: . -x '*.git*' 'gitignore.txt'
+    secrets: inherit
+    uses: jjerhub/Utilities.GithubActions/.github/workflows/ZipContents.yml@master
+    with:
+      zip-file-name: 'ADRFDR_Extended'
