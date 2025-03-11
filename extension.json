@@ -11,8 +11,8 @@
       "PRmKdC": {
         "upper": {
           "segmentId": "Svhx",
-          "distance": 97,
-          "End": "Start"
+          "distance": 5,
+          "End": "End"
         },
         "lower": {
           "segmentId": "Svhx",
