@@ -2,7 +2,7 @@
   "manifestVersion": 5,
   "id": "jjerhub.ADRFDR_Extended",
   "name": "ADRFDR_Extended",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "requires": [
     {
       "id": "railloader",

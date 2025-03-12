@@ -29,6 +29,7 @@
         "robinson-mine": {
           "components": {
             "coal-by-kevin": {
+              "carTransferRate": 955000,
               "costPerUnit": 0.0015
             }
           }
